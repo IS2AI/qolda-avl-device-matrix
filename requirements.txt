@@ -1,0 +1,8 @@
+# Device 1 (Windows / CUDA) only. Its driver uses requests for HTTP and psutil
+# for the llama-server working-set sample.
+psutil
+requests
+
+# Devices 2 and 3 use the standard library only (urllib, http.client) and need
+# nothing installed. Device 3 additionally needs `adb` on PATH, and both
+# setup scripts need `hf` (huggingface-cli), cmake, and git.

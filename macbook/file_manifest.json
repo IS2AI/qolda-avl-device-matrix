@@ -1,0 +1,51 @@
+[
+  {
+    "file": "Qolda-AVL-5B-BF16.gguf",
+    "path": "models/BF16/Qolda-AVL-5B-BF16.gguf",
+    "bytes": 8051286368,
+    "gib": 7.5,
+    "sha12": "7df60f9052bd"
+  },
+  {
+    "file": "Qolda-AVL-5B-Q4_K_M.gguf",
+    "path": "models/Q4_K_M/Qolda-AVL-5B-Q4_K_M.gguf",
+    "bytes": 2497282144,
+    "gib": 2.33,
+    "sha12": "4846476c27ae"
+  },
+  {
+    "file": "Qolda-AVL-5B-Q5_K_M.gguf",
+    "path": "models/Q5_K_M/Qolda-AVL-5B-Q5_K_M.gguf",
+    "bytes": 2889515104,
+    "gib": 2.69,
+    "sha12": "193793b63208"
+  },
+  {
+    "file": "Qolda-AVL-5B-Q6_K.gguf",
+    "path": "models/Q6_K/Qolda-AVL-5B-Q6_K.gguf",
+    "bytes": 3306262368,
+    "gib": 3.08,
+    "sha12": "d392af001fee"
+  },
+  {
+    "file": "Qolda-AVL-5B-Q8_0.gguf",
+    "path": "models/Q8_0/Qolda-AVL-5B-Q8_0.gguf",
+    "bytes": 4280406368,
+    "gib": 3.99,
+    "sha12": "613406fad8ab"
+  },
+  {
+    "file": "mmproj-Qolda-AVL-5B-F16.gguf",
+    "path": "models/mmproj/mmproj-Qolda-AVL-5B-F16.gguf",
+    "bytes": 2193746656,
+    "gib": 2.04,
+    "sha12": "041aa58d1d39"
+  },
+  {
+    "file": "mmproj-Qolda-AVL-5B-vision-only-F16.gguf",
+    "path": "models/mmproj/mmproj-Qolda-AVL-5B-vision-only-F16.gguf",
+    "bytes": 836180480,
+    "gib": 0.78,
+    "sha12": "c06b37209e45"
+  }
+]

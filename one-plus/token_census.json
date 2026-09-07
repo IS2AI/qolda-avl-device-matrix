@@ -1,0 +1,51 @@
+{
+  "tokenizer": {
+    "text-128": 128,
+    "text-512": 513,
+    "text-2048": 2048,
+    "vision_instruction": 65,
+    "audio_instruction": 28
+  },
+  "server_prompt_n": {
+    "text-128": 128,
+    "text-512": 513,
+    "text-2048": 2048,
+    "vision": 1101,
+    "audio-30s": 1540,
+    "audio-10s": 540
+  },
+  "modes": {
+    "text-128": {
+      "image_tokens": "",
+      "audio_tokens": "",
+      "audio_seconds": ""
+    },
+    "text-512": {
+      "image_tokens": "",
+      "audio_tokens": "",
+      "audio_seconds": ""
+    },
+    "text-2048": {
+      "image_tokens": "",
+      "audio_tokens": "",
+      "audio_seconds": ""
+    },
+    "vision": {
+      "image_tokens": 1024,
+      "audio_tokens": "",
+      "audio_seconds": ""
+    },
+    "audio-30s": {
+      "image_tokens": "",
+      "audio_tokens": 1500,
+      "audio_seconds": "30.0"
+    },
+    "audio-10s": {
+      "image_tokens": "",
+      "audio_tokens": 500,
+      "audio_seconds": "10.0"
+    }
+  },
+  "chat_template_overhead_tokens": 12,
+  "derivation": "image/audio tokens = server prompt_n - instruction tokens - 12 template tokens"
+}

@@ -1,0 +1,31 @@
+# Model weights: ~19 GiB, published separately as issai/Qolda-AVL-5B-GGUF.
+# Their sha256 values are in validation_report.md and macbook/file_manifest.json.
+models/
+*.gguf
+
+# Built from source by each device's setup script.
+llama.cpp/
+build/
+build-android/
+
+# Raw sampler output. Device 2's power.log alone is 142 MB; the aggregated
+# per-run figures it produced are in macbook/raw_runs.jsonl.
+power.log
+logs/
+*.log
+
+# Fixed inputs are canonical in protocol/ and copied into the device
+# directories by setup.sh / setup.ps1.
+rtx/prompts_text.txt
+rtx/bench_image.jpg
+rtx/bench_audio_*.wav
+macbook/prompts_text.txt
+macbook/bench_image.jpg
+macbook/bench_audio_*.wav
+one-plus/prompts_text.txt
+one-plus/bench_image.jpg
+one-plus/bench_audio_*.wav
+
+__pycache__/
+*.pyc
+.DS_Store
