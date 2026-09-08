@@ -23,10 +23,8 @@ Not included, by design:
 | file | bytes | rows | sha256 | what it is |
 |---|---:|---|---|---|
 | `.gitignore` | 771 |  | `0addfe7bbae72548c2371c76d92d316350c20ebc78ac084124d1a754c8cab3c3` | Excludes model weights, llama.cpp builds, raw sampler logs, and the protocol inputs staged into device directories. |
-| `LICENSE` | 11,358 |  | `cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30` | Apache License 2.0, verbatim. Covers the code: drivers, libraries, setup and run scripts, tools. |
-| `LICENSE-DATA` | 18,657 |  | `9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411` | CC-BY-4.0 legal code, verbatim. Covers the measurement results and reports. |
-| `NOTICE.md` | 3,005 |  | `87a6273b1689993477873eb3f75c7c2a7c7c2a0683fd76abe7641e72d99dda4f` | Copyright, the two-license split, and third-party terms for the llama.cpp patch, the FLEURS-derived audio, the Wikipedia-derived text, and bench_image.jpg. |
-| `README.md` | 13,998 |  | `af05491452a663263e38e8efc750196225d7bd5f52bcc8d14304d1da04c4f811` | Entry point: devices, headline results, layout, what is and is not comparable, how to reproduce. |
+| `NOTICE.md` | 3,060 |  | `264a7fffcec098fc20fc81264a12a24e86d37860df5da251e01d2ddaf82faa6c` | Licensing, copyright, and third-party terms for the llama.cpp patch, the FLEURS-derived audio, the Wikipedia-derived text, and bench_image.jpg. |
+| `README.md` | 13,959 |  | `c780435c9f97feb6f625371ed34442c84b694a7b9a1af13f37dd22dcc5cdf739` | Entry point: devices, headline results, layout, what is and is not comparable, how to reproduce. |
 | `REVIEW_REPLY.md` | 9,343 |  | `4e91c98b4531bc8c8221e2b14f45a5d957785d5e0a6ea59236e263679329f261` | Reply text for the review thread, Russian and English. |
 | `cross_device_summary.md` | 48,655 |  | `15ea8f891b39521afeb26dc4000869f1defa1548c6bd896c1f10b281c8f7b001` | Cross-device comparison: measurement boundaries, comparable-metric tables, synthesis, limits. |
 | `merged_results.csv` | 249,817 | 471 rows | `6c594d886bbc4b542f3f522a7de5b32e11c592253cfab69639b207c3055ee448` | All 471 measured rows from the three devices; the protocol's 26 columns plus power_boundary, Device 3's two extra columns, and device_id/source_file/source_row provenance. Rebuild with tools/merge_results.py. |
