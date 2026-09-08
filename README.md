@@ -64,6 +64,9 @@ cross_device_summary.md   cross-device comparison and synthesis
 validation_report.md      identity checks, coverage grid, deviations
 MANIFEST.md               sha256 for every file
 REVIEW_REPLY.md           reply text for the review thread
+LICENSE                   Apache-2.0, for the code
+LICENSE-DATA              CC-BY-4.0, for the results and reports
+NOTICE.md                 copyright and third-party terms
 verify.sh                 checks hashes and re-derives the merged CSV
 tools/merge_results.py    builds merged_results.csv from the three device CSVs
 
@@ -250,3 +253,34 @@ artifacts, identified by sha256 in `validation_report.md` and
 `macbook/file_manifest.json`. Device 2's `power.log` (142 MB of raw
 `powermetrics` output) is also excluded; the aggregated per-run figures it
 produced are in `macbook/raw_runs.jsonl`.
+
+## Funding
+
+This work was developed as part of the project funded by the Ministry of Science and
+Higher Education of the Republic of Kazakhstan under Grant No. BR24993001, "Creation of
+a Large Language Model (LLM) to Support the Kazakh Language and Advance Technological
+Development."
+
+## License
+
+Code is licensed under the Apache License 2.0 (`LICENSE`). Measurement results and input
+artifacts are licensed under CC-BY-4.0 (`LICENSE-DATA`). Third-party material, including
+the llama.cpp patch and the FLEURS-derived audio, is subject to its own terms; see
+`NOTICE.md`.
+
+## Citation
+
+If you use this benchmark, please cite the model paper:
+
+    @article{arystanbekov2026qolda,
+      title   = {Extending a Vision--Language Model with Audio Understanding:
+                 Introducing Qolda-AVL for the Kazakh Language},
+      author  = {Arystanbekov, Batyr and Maxutov, Aidar and Nurimanov, Assanali
+                 and Varol, Huseyin Atakan},
+      journal = {Big Data and Cognitive Computing},
+      volume  = {10},
+      number  = {6},
+      pages   = {192},
+      year    = {2026},
+      doi     = {10.3390/bdcc10060192}
+    }
