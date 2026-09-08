@@ -64,6 +64,7 @@ cross_device_summary.md   cross-device comparison and synthesis
 validation_report.md      identity checks, coverage grid, deviations
 MANIFEST.md               sha256 for every file
 REVIEW_REPLY.md           reply text for the review thread
+LICENSE                   Apache-2.0, for the code
 NOTICE.md                 licensing, copyright and third-party terms
 verify.sh                 checks hashes and re-derives the merged CSV
 tools/merge_results.py    builds merged_results.csv from the three device CSVs
@@ -261,7 +262,7 @@ Development."
 
 ## License
 
-Code is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Code is licensed under the Apache License 2.0 (`LICENSE`).
 Measurement results and input artifacts are licensed under
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material, including
 the llama.cpp patch and the FLEURS-derived audio, is subject to its own terms; see

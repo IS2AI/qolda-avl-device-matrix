@@ -5,10 +5,10 @@ Nazarbayev University.
 
 This repository is released under two licenses.
 
-| what | license |
-|---|---|
-| Code: the benchmark drivers, libraries, setup and run scripts, and tools | [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
-| Results and reports: the device CSVs, `merged_results.csv`, the raw run records, the summaries and the cross-device reports | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) |
+| what | license | |
+|---|---|---|
+| Code: the benchmark drivers, libraries, setup and run scripts, and tools | Apache License 2.0 | `LICENSE` |
+| Results and reports: the device CSVs, `merged_results.csv`, the raw run records, the summaries and the cross-device reports | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) | |
 
 Third-party material carries its own terms and is **not** relicensed by either
 of the above.
